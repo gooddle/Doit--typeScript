@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    //자바스크립트 모듈은
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "paths": {"*": ["node_modules/*"]}
+  },
+  "include": ["src/**/*"]
+}
